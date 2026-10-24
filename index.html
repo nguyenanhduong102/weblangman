@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gửi tặng Gấu yêu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;600&family=Dancing+Script:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="intro">
+    <div class="bg-decor">
+      <span class="heart-float heart-1">❤</span>
+      <span class="heart-float heart-2">❤</span>
+      <span class="heart-float heart-3">❤</span>
+      <span class="heart-float heart-4">❤</span>
+      <span class="heart-float heart-5">❤</span>
+    </div>
+
+    <main class="container">
+      <section class="panel letter-panel">
+        <div class="letter-frame">
+          <div class="letter-header">
+            <h1 class="letter-title">Yêu ơii</h1>
+            <div class="letter-stamp">❤</div>
+          </div>
+          <div class="letter-body">
+            <p id="typewriter" class="typewriter-text" aria-live="polite"></p>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+          <div class="letter-footer">
+            <p class="signature">Yêu em nhiều lắm...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel tree-panel">
+        <div class="tree-frame">
+          <img src="heart-bg.jpg" alt="" class="heart-bg" aria-hidden="true" />
+          <canvas
+            id="heartTree"
+            class="heart-canvas"
+            aria-label="Bó hoa tulip hồng và trắng được gói giấy, thắt nơ"
+          ></canvas>
+          <div class="photo-frame">
+            <div class="photo-slider" id="photoSlider">
+              <img
+                src="1788610861209_3886049725810414714_3886049725810414714_27f49fa6c3a065659eafc7ef6ba23dc3.jpg"
+                alt="Ảnh kỷ niệm 1"
+                class="slide active"
+              />
+              <img
+                src="1783453778146_3886049725810414714_3886049725810414714_e17a34931d82e11f56e4e77c25a57b50.jpg"
+                alt="Ảnh kỷ niệm 2"
+                class="slide"
+              />
+              <img
+                src="1791042363688_194136518295256101_3886049725810414714_edfbae3420277cc6e98c5b8c97d99326.jpg"
+                alt="Ảnh kỷ niệm 3"
+                class="slide"
+              />
+            </div>
+            <div class="photo-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>Mỗi khoảnh khắc bên em đều là cả thế giới của riêng mình ❤</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
